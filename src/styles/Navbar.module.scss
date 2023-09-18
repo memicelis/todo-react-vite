@@ -1,0 +1,50 @@
+/* Add this CSS to your stylesheet */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0 10%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  position: relative;
+  margin-right: 20px;
+}
+
+.dropdown-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menu {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column; /* Make the dropdown menu appear in a row */
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  border: 1px solid #555;
+  z-index: 1;
+}
+
+.dropdown-item {
+  padding: 10px;
+  border-bottom: 1px solid #555;
+}
+
+/* Style the dropdown arrow */
+.dropdown-button span {
+  margin-left: 5px;
+}
